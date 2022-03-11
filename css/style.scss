@@ -1,0 +1,51 @@
+body {
+	direction: rtl;
+}
+
+.header {
+	background-image: url('../images/slider-bg-1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: -8rem;
+}
+
+/* .header .carousel .carousel-inner .carousel-item {
+	float: none;
+	margin-left: 0 !important;
+} */
+
+.navbar ul li a {
+	font-size: 14px;
+
+	&:hover {
+		color:  black !important;
+	}
+}
+
+.navbar ul li a:hover {
+	color: black !important;
+}
+
+
+section#services .card {
+	padding: 3rem 1rem;
+	transition: all 0.8s;
+}
+
+section#services .card:hover {
+	box-shadow: 0 0 25px #dadada;
+}
+
+section#services > img {
+	width: 50px;
+	height: 50px;
+}
+
+section#services .card img {
+	width: 25%;
+	height: 20%;
+}
+
+section#services .card#first_card img {
+	width: 28%;
+}
