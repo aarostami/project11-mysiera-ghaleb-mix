@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	direction: rtl;
 }
@@ -7,6 +8,23 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-x: -8rem;
+=======
+@font-face {
+	font-family: Vazir;
+	src: url("../vazir/Vazir.ttf") format("true type"), url("../vazir/Vazir.woff") format("woff");
+}
+
+body {
+	direction: rtl;
+	font-family: Vazir;
+}
+
+.header {
+	background-image: url("../images/slider-bg-1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: -11rem;
+>>>>>>> 53e72a5d854407361297fe9a03d06e07b133ef63
 }
 
 /* .header .carousel .carousel-inner .carousel-item {
@@ -14,11 +32,35 @@ body {
 	margin-left: 0 !important;
 } */
 
+<<<<<<< HEAD
 .navbar ul li a {
 	font-size: 14px;
 
 	&:hover {
 		color:  black !important;
+=======
+.navbar {
+	padding: 2.4rem !important;
+
+	ul li {
+		margin-left: 2.3rem !important;
+
+		a {
+			font-size: 14px;
+			font-weight: 600;
+			display: inline-block;
+			padding: 10px 12px;
+
+			&:hover {
+				color: black !important;
+			}
+		}
+	}
+
+	a img {
+		vertical-align: top;
+		margin-left: 8px;
+>>>>>>> 53e72a5d854407361297fe9a03d06e07b133ef63
 	}
 }
 
@@ -26,14 +68,88 @@ body {
 	color: black !important;
 }
 
+<<<<<<< HEAD
 
 section#services .card {
 	padding: 3rem 1rem;
 	transition: all 0.8s;
+=======
+#mycarousel {
+	.carousel-inner .carousel-item .container {
+		.row a {
+			display: inline-block;
+			background: linear-gradient(to right, #6abff7, #6d54fc);
+			padding: 15px 55px;
+			color: #fff;
+			border-radius: 30px;
+			border: 7px solid #a3dcf7;
+			margin-top: 10%;
+		}
+	}
+	button {
+		background: linear-gradient(to right, #6abff7, #6d54fc);
+		opacity: 1;
+		top: 38%;
+		width: 10%;
+		height: 16%;
+		border: 10px solid #a3dcf7;
+		background-color: red;
+	}
+
+	.carousel-control-prev {
+		border-left: 0;
+		border-radius: 0 80px 80px 0;
+
+		span {
+			font-size: 15px !important;
+		}
+	}
+
+	.carousel-control-next {
+		border-right: 0;
+		border-radius: 80px 0 0 80px;
+	}
+}
+
+section#services {
+	.card {
+		padding: 3rem 1rem;
+		transition: all 0.8s;
+
+		a {
+			background: linear-gradient(to right, #6abff7, #6d54fc);
+			padding: 15px;
+			color: #fff;
+			border-radius: 30px;
+			border: 7px solid #a3dcf7;
+			// margin-top: 10%;
+			width: 65%;
+			text-align: center;
+			text-decoration: none;
+			margin-top: 25%;
+			opacity: 0;
+			transition: opacity 0.5s;
+		}
+	}
+
+	#first_card h3 {
+		padding-top: 9%;
+	}
+	#third_card h3 {
+		padding-top: 5%;
+	}
+>>>>>>> 53e72a5d854407361297fe9a03d06e07b133ef63
 }
 
 section#services .card:hover {
 	box-shadow: 0 0 25px #dadada;
+<<<<<<< HEAD
+=======
+
+	a {
+		opacity: 1;
+	}
+>>>>>>> 53e72a5d854407361297fe9a03d06e07b133ef63
 }
 
 section#services > img {
@@ -48,4 +164,143 @@ section#services .card img {
 
 section#services .card#first_card img {
 	width: 28%;
+<<<<<<< HEAD
 }
+=======
+}
+
+section#content1 #myslide2 {
+	/* .carousel-inner .carousel-item {
+		display: block;
+		
+		.card {
+			background-color: url('../images/3d-slider-shap.png');
+	
+			
+		}
+	} */
+}
+
+section#content1 {
+	.right_section {
+		background-image: url("../images/3d-slider-shap.png");
+		background-size: 140% 125%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	#myslide2 {
+		direction: ltr;
+		background: transparent;
+		.card {
+			background: transparent;
+			width: 70%;
+			margin: 0 auto;
+			.card-footer {
+				background-color: transparent;
+				img {
+					width: 12%;
+					height: 12%;
+					display: inline-block;
+					float: right;
+					margin-left: 5%;
+				}
+
+				p {
+					margin-bottom: 5px;
+
+					&:last-child {
+						font-size: 12px;
+						font-weight: bold;
+						color: white;
+					}
+				}
+			}
+		}
+
+		.owl-dots {
+			text-align: center;
+
+			button {
+				span {
+					width: 10px;
+					height: 10px;
+					margin: 5px 7px;
+					background: #d6d6d6;
+					display: block;
+					-webkit-backface-visibility: visible;
+					transition: opacity 0.2s ease;
+					border-radius: 30px;
+				}
+			}
+
+			button.active {
+				span {
+					background-color: #5c5c5c;
+				}
+			}
+		}
+	}
+
+	div:nth-of-type(2) {
+		img {
+			max-width: 37%;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	#second_col {
+		padding-top: 5%;
+	}
+
+	div:last-of-type {
+		text-align: right;
+		p {
+			line-height: 28px;
+		}
+	}
+
+	#third-col {
+		padding-top: 8%;
+	}
+}
+
+section#content2 {
+	padding-top: 6%;
+	#first_col {
+		text-align: right;
+		padding-right: 11% !important;
+		padding-left: 4%;
+
+		h1 {
+			margin-bottom: 12%;
+		}
+
+		p:last-of-type {
+			line-height: 30px;
+		}
+
+		ul.nav {
+			list-style-type: disc;
+
+			li {
+				&:hover {color: #007bff}	/***mohem bood*** deghat baraye circle ul hast, nemitoonim ba jquery behesh color bedima*/
+				&::marker {padding-right: 10px !important; margin-right: 20px !important;
+					transform: translateX(10);
+					position: absolute;
+					right: 5px;
+				}
+
+				a {
+					text-decoration: none;
+
+					&:hover {
+						color: #007bff !important;
+					}
+				}
+			}
+		}
+	}
+}
+>>>>>>> 53e72a5d854407361297fe9a03d06e07b133ef63

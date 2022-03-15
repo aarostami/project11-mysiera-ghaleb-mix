@@ -1,16 +1,33 @@
+<<<<<<< HEAD
 body {
   direction: rtl; }
+=======
+@font-face {
+  font-family: Vazir;
+  src: url("../vazir/Vazir.ttf") format("true type"), url("../vazir/Vazir.woff") format("woff");
+}
+body {
+  direction: rtl;
+  font-family: Vazir;
+}
+>>>>>>> 53e72a5d854407361297fe9a03d06e07b133ef63
 
 .header {
   background-image: url("../images/slider-bg-1.png");
   background-size: cover;
   background-repeat: no-repeat;
+<<<<<<< HEAD
   background-position-x: -8rem; }
+=======
+  background-position-x: -11rem;
+}
+>>>>>>> 53e72a5d854407361297fe9a03d06e07b133ef63
 
 /* .header .carousel .carousel-inner .carousel-item {
 	float: none;
 	margin-left: 0 !important;
 } */
+<<<<<<< HEAD
 .navbar ul li a {
   font-size: 14px; 
   transition: all 0.5s;
@@ -36,5 +53,221 @@ section#services .card img {
 
 section#services .card#first_card img {
   width: 28%; }
+=======
+.navbar {
+  padding: 2.4rem !important;
+}
+.navbar ul li {
+  margin-left: 2.3rem !important;
+}
+.navbar ul li a {
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  padding: 10px 12px;
+}
+.navbar ul li a:hover {
+  color: black !important;
+}
+.navbar a img {
+  vertical-align: top;
+  margin-left: 8px;
+}
+
+.navbar ul li a:hover {
+  color: black !important;
+}
+
+#mycarousel .carousel-inner .carousel-item .container .row a {
+  display: inline-block;
+  background: linear-gradient(to right, #6abff7, #6d54fc);
+  padding: 15px 55px;
+  color: #fff;
+  border-radius: 30px;
+  border: 7px solid #a3dcf7;
+  margin-top: 10%;
+}
+#mycarousel button {
+  background: linear-gradient(to right, #6abff7, #6d54fc);
+  opacity: 1;
+  top: 38%;
+  width: 10%;
+  height: 16%;
+  border: 10px solid #a3dcf7;
+  background-color: red;
+}
+#mycarousel .carousel-control-prev {
+  border-left: 0;
+  border-radius: 0 80px 80px 0;
+}
+#mycarousel .carousel-control-prev span {
+  font-size: 15px !important;
+}
+#mycarousel .carousel-control-next {
+  border-right: 0;
+  border-radius: 80px 0 0 80px;
+}
+
+section#services .card {
+  padding: 3rem 1rem;
+  transition: all 0.8s;
+}
+section#services .card a {
+  background: linear-gradient(to right, #6abff7, #6d54fc);
+  padding: 15px;
+  color: #fff;
+  border-radius: 30px;
+  border: 7px solid #a3dcf7;
+  width: 65%;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 25%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+section#services #first_card h3 {
+  padding-top: 9%;
+}
+section#services #third_card h3 {
+  padding-top: 5%;
+}
+
+section#services .card:hover {
+  box-shadow: 0 0 25px #dadada;
+}
+section#services .card:hover a {
+  opacity: 1;
+}
+
+section#services > img {
+  width: 50px;
+  height: 50px;
+}
+
+section#services .card img {
+  width: 25%;
+  height: 20%;
+}
+
+section#services .card#first_card img {
+  width: 28%;
+}
+
+section#content1 #myslide2 {
+  /* .carousel-inner .carousel-item {
+  	display: block;
+
+  	.card {
+  		background-color: url('../images/3d-slider-shap.png');
+
+
+  	}
+  } */
+}
+
+section#content1 .right_section {
+  background-image: url("../images/3d-slider-shap.png");
+  background-size: 140% 125%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#content1 #myslide2 {
+  direction: ltr;
+  background: transparent;
+}
+section#content1 #myslide2 .card {
+  background: transparent;
+  width: 70%;
+  margin: 0 auto;
+}
+section#content1 #myslide2 .card .card-footer {
+  background-color: transparent;
+}
+section#content1 #myslide2 .card .card-footer img {
+  width: 12%;
+  height: 12%;
+  display: inline-block;
+  float: right;
+  margin-left: 5%;
+}
+section#content1 #myslide2 .card .card-footer p {
+  margin-bottom: 5px;
+}
+section#content1 #myslide2 .card .card-footer p:last-child {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+section#content1 #myslide2 .owl-dots {
+  text-align: center;
+}
+section#content1 #myslide2 .owl-dots button span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity 0.2s ease;
+  border-radius: 30px;
+}
+section#content1 #myslide2 .owl-dots button.active span {
+  background-color: #5c5c5c;
+}
+section#content1 div:nth-of-type(2) img {
+  max-width: 37%;
+  display: block;
+  margin: 0 auto;
+}
+section#content1 #second_col {
+  padding-top: 5%;
+}
+section#content1 div:last-of-type {
+  text-align: right;
+}
+section#content1 div:last-of-type p {
+  line-height: 28px;
+}
+section#content1 #third-col {
+  padding-top: 8%;
+}
+
+section#content2 {
+  padding-top: 6%;
+}
+section#content2 #first_col {
+  text-align: right;
+  padding-right: 11% !important;
+  padding-left: 4%;
+}
+section#content2 #first_col h1 {
+  margin-bottom: 12%;
+}
+section#content2 #first_col p:last-of-type {
+  line-height: 30px;
+}
+section#content2 #first_col ul.nav {
+  list-style-type: disc;
+}
+section#content2 #first_col ul.nav li {
+  /***mohem bood*** deghat baraye circle ul hast, nemitoonim ba jquery behesh color bedima*/
+}
+section#content2 #first_col ul.nav li:hover {
+  color: #007bff;
+}
+section#content2 #first_col ul.nav li::marker {
+  padding-right: 10px !important;
+  margin-right: 20px !important;
+  transform: translateX(10);
+  position: absolute;
+  right: 5px;
+}
+section#content2 #first_col ul.nav li a {
+  text-decoration: none;
+}
+section#content2 #first_col ul.nav li a:hover {
+  color: #007bff !important;
+}
+>>>>>>> 53e72a5d854407361297fe9a03d06e07b133ef63
 
 /*# sourceMappingURL=style.css.map */
